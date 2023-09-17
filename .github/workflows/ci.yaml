@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r scripts/docker_install.txt
+          pip install -r docker_install.txt
         working-directory: ./setup/  # Specify the path to your project directory
 
       # Step 2: Linting (Replace with your linter of choice)
